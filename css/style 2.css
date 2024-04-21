@@ -1,0 +1,54 @@
+
+/* Отступы нужно назначать снизу и справа для каждого элемента потока (кроме последнего) */
+h1, h2 {
+  margin: 0 auto;
+  margin-bottom: 40px;
+  /* padding: 80px 0; */
+  /* width: 1170px; */
+
+}
+
+/* Выравнивает контент по центру, задаёт минимальную высоту страницы, тёмный цвет фона */
+p {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: #fff;
+    background-color: #070217;
+}
+
+
+
+h1 {
+  font-size: 30px;
+  font-style: italic;
+}
+
+/* h1, h2 {
+  color: cadetblue;
+} */
+
+/* Назначить параметры для всех тегов: */
+/* * {
+  color: cadetblue;
+} */
+
+/* Назначить параметры для класса (селектор выбора по классам): */
+/* !important - ставит максимальную приоритетность (вес) для заданного параметра */
+.heading {
+  color: white !important;
+}
+
+/* Вес селектора по id больше, чем по классу, поэтому правила для id имеют более высокую приоритетность исполнения */
+/* Назначить параметры для id (селектор выбора по id): */
+/* #heading {
+  color: blueviolet;
+} */
+
+.song-text {
+  color: royalblue !important;
+}
+
+
